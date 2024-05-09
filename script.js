@@ -34,5 +34,5 @@ async function getaudio() {
 
     setTimeout(() => {
         window.open(result.link, "_blank")
-    },1000);
+    },0);
 }

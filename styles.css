@@ -1,5 +1,6 @@
 .container{
-    height: 100vh;
+    height: 100%;
+    color: red;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -18,9 +19,9 @@
     width: 80%;
     max-width: 50%;
     border-radius: 12px;
-    box-shadow: 0px 6px 6px rgb(18 18 18 / 20%);
+    box-shadow: 0vh 1vh 1vh rgb(18 18 18 / 20%);
     margin: 0 auto;
-    padding: 20px;
+    padding: 4vh;
 }
 
 .video-box div:nth-of-type(1) {
@@ -30,7 +31,7 @@
 }
 
 .video-box div:nth-of-type(2) {
-    margin: 20px 0;
+    margin: 3vh 0;
     display: flex;
 }
 
@@ -46,8 +47,8 @@
 
 .video-box input {
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    height: 48px;
+    font-size: 2.5vh;
+    height: 7vh;
     border-radius: 6px;
 }
 
@@ -64,13 +65,15 @@
 }
 
 #text {
-    max-width: 600px;
-    margin: 40px auto;
+    max-width: 90vh;
+    margin: 10vh auto;
 }
 
 div {
     display: block;
 }
+
+
 
 body {
     background-color: #fafafa;
